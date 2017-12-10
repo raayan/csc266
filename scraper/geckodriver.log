@@ -1,0 +1,825 @@
+1510794513649	geckodriver	INFO	geckodriver 0.19.1
+1510794513651	geckodriver	INFO	Listening on 127.0.0.1:38867
+1510794514770	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Z3q3QeLAy7rc"
+1510794515020	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794515020	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794515020	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794515028	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794515028	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794515028	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794515158	Marionette	INFO	Enabled via --marionette
+1510794515205	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794515205	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794515206	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794515206	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794515207	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794515207	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794515224	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794515224	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794516453	Marionette	INFO	Listening on port 45513
+1510794516480	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510794516526	Marionette	DEBUG	Register listener.js for window 2147483649
+1510794516538	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510794518533	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510794518534	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.1adb7e40.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510794519400	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510794519627	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510794527657	geckodriver	INFO	geckodriver 0.19.1
+1510794527659	geckodriver	INFO	Listening on 127.0.0.1:33637
+1510794528740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0oE2hlT7ia4j"
+1510794528977	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794528977	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794528977	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794528985	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794528985	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794528985	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794529109	Marionette	INFO	Enabled via --marionette
+1510794529154	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794529154	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794529155	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794529155	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794529156	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794529156	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794529173	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794529173	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794530267	Marionette	INFO	Listening on port 45255
+1510794530347	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510794530391	Marionette	DEBUG	Register listener.js for window 2147483649
+1510794530408	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510794531728	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510794531729	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: https://www.bitfinex.com/wassets/app.b5a0fce2.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510794532847	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1510794532897	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1510794542789	geckodriver	INFO	geckodriver 0.19.1
+1510794542791	geckodriver	INFO	Listening on 127.0.0.1:55065
+1510794543898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.dYCgOWO7c8dT"
+1510794544119	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794544119	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794544119	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794544127	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794544127	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794544127	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794544260	Marionette	INFO	Enabled via --marionette
+1510794544306	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794544306	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794544307	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794544307	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794544308	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794544308	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794544325	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794544325	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794545427	Marionette	INFO	Listening on port 42461
+1510794545505	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510794545548	Marionette	DEBUG	Register listener.js for window 2147483649
+1510794545558	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510794546953	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510794546954	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.f5d2105e.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510794547852	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510794547970	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1510794663142	geckodriver	INFO	geckodriver 0.19.1
+1510794663144	geckodriver	INFO	Listening on 127.0.0.1:37329
+1510794664229	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.bQaVcmHpM5Bw"
+1510794664472	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794664473	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794664473	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794664480	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794664480	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794664480	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794664600	Marionette	INFO	Enabled via --marionette
+1510794664655	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794664656	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794664656	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794664656	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794664657	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794664658	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794664674	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794664675	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794665775	Marionette	INFO	Listening on port 45357
+1510794665843	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bitfinex.com/wassets/app.1f01d8d0.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510794684845	geckodriver	INFO	geckodriver 0.19.1
+1510794684847	geckodriver	INFO	Listening on 127.0.0.1:56643
+1510794685955	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0Gpi6fl6mC4N"
+1510794686179	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794686180	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794686180	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794686188	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794686188	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794686188	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794686295	Marionette	INFO	Enabled via --marionette
+1510794686339	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794686340	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794686340	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794686340	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794686341	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794686341	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794686358	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794686358	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794687568	Marionette	INFO	Listening on port 45161
+1510794687665	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510794687709	Marionette	DEBUG	Register listener.js for window 2147483649
+1510794687721	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510794689490	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510794689490	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.5b8d611d.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510794690258	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510794690446	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510794703373	geckodriver	INFO	geckodriver 0.19.1
+1510794703376	geckodriver	INFO	Listening on 127.0.0.1:48549
+1510794704460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.001jNbMbYRei"
+1510794704708	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794704708	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794704708	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794704715	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794704716	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794704716	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794704840	Marionette	INFO	Enabled via --marionette
+1510794704886	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794704886	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794704887	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794704887	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794704888	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794704888	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794704905	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794704905	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794705997	Marionette	INFO	Listening on port 36533
+1510794706067	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510794706113	Marionette	DEBUG	Register listener.js for window 2147483649
+1510794706132	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510794707425	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510794707425	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.5ec08a37.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510794708205	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510794708444	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1510794770406	geckodriver	INFO	geckodriver 0.19.1
+1510794770409	geckodriver	INFO	Listening on 127.0.0.1:35391
+1510794771493	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.JvbILM5rMqcx"
+1510794771734	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794771734	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794771734	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794771742	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794771742	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794771743	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794771852	Marionette	INFO	Enabled via --marionette
+1510794771897	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794771897	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794771898	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794771898	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794771899	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794771899	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794771916	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510794771916	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510794773055	Marionette	INFO	Listening on port 36751
+1510794773113	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510794773173	Marionette	DEBUG	Register listener.js for window 2147483649
+1510794773193	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510794774840	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510794774840	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.5b8d611d.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510794775730	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510794776003	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1510804701816	geckodriver	INFO	geckodriver 0.19.1
+1510804701818	geckodriver	INFO	Listening on 127.0.0.1:35995
+1510804702900	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4pKmPY5gvn2R"
+1510804703143	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804703143	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804703143	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804703151	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804703151	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804703151	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804703270	Marionette	INFO	Enabled via --marionette
+1510804703314	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804703314	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804703315	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804703315	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804703316	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804703316	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804703333	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804703333	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804704453	Marionette	INFO	Listening on port 43211
+1510804704507	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510804704551	Marionette	DEBUG	Register listener.js for window 2147483649
+1510804704564	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510804936486	geckodriver	INFO	geckodriver 0.19.1
+1510804936488	geckodriver	INFO	Listening on 127.0.0.1:35495
+1510804937573	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.y15OFccunn9X"
+1510804937822	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804937822	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804937822	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804937830	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804937830	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804937830	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804937955	Marionette	INFO	Enabled via --marionette
+1510804938001	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804938001	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804938001	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804938001	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804938003	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804938003	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804938020	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804938020	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804938972	Marionette	INFO	Listening on port 41847
+1510804939014	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bitfinex.com/wassets/app.d5b61ba5.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1510804951060	geckodriver	INFO	geckodriver 0.19.1
+1510804951063	geckodriver	INFO	Listening on 127.0.0.1:60329
+1510804952148	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.riSetYbP6rEu"
+1510804952375	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804952375	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804952375	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804952383	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804952383	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804952383	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804952509	Marionette	INFO	Enabled via --marionette
+1510804952555	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804952555	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804952556	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804952556	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804952557	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804952557	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804952574	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804952574	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804953693	Marionette	INFO	Listening on port 36619
+1510804953756	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510804953800	Marionette	DEBUG	Register listener.js for window 2147483649
+1510804953819	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510804955101	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510804955102	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.61801754.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510804956016	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510804956199	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1510804964756	geckodriver	INFO	geckodriver 0.19.1
+1510804964758	geckodriver	INFO	Listening on 127.0.0.1:56695
+1510804965868	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.DYbNz35J0UCy"
+1510804966094	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804966094	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804966095	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804966102	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804966102	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804966102	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804966225	Marionette	INFO	Enabled via --marionette
+1510804966269	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804966270	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804966270	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804966270	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804966272	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804966272	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804966288	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510804966288	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510804967427	Marionette	INFO	Listening on port 33341
+1510804967476	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510804967522	Marionette	DEBUG	Register listener.js for window 2147483649
+1510804967539	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510804968853	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510804968854	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.1f01d8d0.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510804969667	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510804969862	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510805164119	geckodriver	INFO	geckodriver 0.19.1
+1510805164121	geckodriver	INFO	Listening on 127.0.0.1:59201
+1510805165206	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qv5qExX2NMAW"
+1510805165433	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805165433	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805165433	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805165440	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805165441	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805165441	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805165558	Marionette	INFO	Enabled via --marionette
+1510805165607	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805165608	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805165608	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805165608	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805165610	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805165610	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805165630	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805165630	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805166723	Marionette	INFO	Listening on port 38807
+1510805166822	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510805166868	Marionette	DEBUG	Register listener.js for window 2147483649
+1510805166883	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510805168057	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510805168057	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.f5d2105e.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510805168823	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510805169022	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510805177631	geckodriver	INFO	geckodriver 0.19.1
+1510805177634	geckodriver	INFO	Listening on 127.0.0.1:60505
+1510805178747	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ppAR1bLe1dpw"
+1510805179068	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805179068	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805179068	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805179076	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805179076	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805179076	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805179208	Marionette	INFO	Enabled via --marionette
+1510805179311	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805179311	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805179312	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805179312	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805179313	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805179313	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805179331	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805179331	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1510805180401	Marionette	INFO	Listening on port 34767
+1510805180467	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510805180509	Marionette	DEBUG	Register listener.js for window 2147483649
+1510805180579	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510805181852	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510805181853	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.5b8d611d.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510805182732	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510805182898	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510805193532	geckodriver	INFO	geckodriver 0.19.1
+1510805193534	geckodriver	INFO	Listening on 127.0.0.1:53061
+1510805194642	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aqZDdtBFm6kk"
+1510805194872	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805194872	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805194872	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805194880	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805194880	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805194880	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805195003	Marionette	INFO	Enabled via --marionette
+1510805195049	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805195049	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805195050	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805195050	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805195051	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805195051	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805195068	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805195068	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805196128	Marionette	INFO	Listening on port 42647
+1510805196175	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510805196224	Marionette	DEBUG	Register listener.js for window 2147483649
+1510805196241	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510805198042	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510805198043	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.1adb7e40.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510805198970	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510805199173	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1510805284800	geckodriver	INFO	geckodriver 0.19.1
+1510805284802	geckodriver	INFO	Listening on 127.0.0.1:42741
+1510805285884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EmlkWE0BhExd"
+1510805286103	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805286103	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805286103	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805286111	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805286111	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805286111	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805286220	Marionette	INFO	Enabled via --marionette
+1510805286266	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805286267	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805286267	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805286267	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805286268	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805286268	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805286285	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805286285	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805287290	Marionette	INFO	Listening on port 46471
+1510805287391	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510805287448	Marionette	DEBUG	Register listener.js for window 2147483649
+1510805287460	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510805288800	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510805288801	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.1adb7e40.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510805289572	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510805289778	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510805336511	geckodriver	INFO	geckodriver 0.19.1
+1510805336513	geckodriver	INFO	Listening on 127.0.0.1:57933
+1510805337642	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Pxm9KoNHDFrj"
+1510805337872	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805337872	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805337873	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805337880	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805337880	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805337880	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805338001	Marionette	INFO	Enabled via --marionette
+1510805338046	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805338046	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805338046	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805338046	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805338048	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805338048	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805338065	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805338065	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805339208	Marionette	INFO	Listening on port 40927
+1510805339252	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510805339293	Marionette	DEBUG	Register listener.js for window 2147483649
+1510805339309	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510805340556	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510805340557	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.61801754.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510805341451	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510805341671	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510805375612	geckodriver	INFO	geckodriver 0.19.1
+1510805375614	geckodriver	INFO	Listening on 127.0.0.1:56531
+1510805376703	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4q6pPsWt2vYN"
+1510805376940	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805376940	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805376940	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805376948	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805376948	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805376948	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805377076	Marionette	INFO	Enabled via --marionette
+1510805377119	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805377120	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805377120	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805377120	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805377121	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805377121	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805377138	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805377138	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805378176	Marionette	INFO	Listening on port 37195
+1510805378211	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510805378255	Marionette	DEBUG	Register listener.js for window 2147483649
+1510805378269	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510805379606	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510805379608	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.5ec08a37.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510805380500	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510805380652	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510805882129	geckodriver	INFO	geckodriver 0.19.1
+1510805882131	geckodriver	INFO	Listening on 127.0.0.1:51675
+1510805883210	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0qSIVwrVOhxx"
+1510805883456	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805883456	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805883456	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805883463	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805883464	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805883464	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805883580	Marionette	INFO	Enabled via --marionette
+1510805883633	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805883633	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805883634	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805883634	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805883635	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805883635	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805883652	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805883652	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805884781	Marionette	INFO	Listening on port 44209
+1510805884817	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bitfinex.com/wassets/app.1adb7e40.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510805887561	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805887565	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805887567	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805887567	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805976380	geckodriver	INFO	geckodriver 0.19.1
+1510805976382	geckodriver	INFO	Listening on 127.0.0.1:34339
+1510805977467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.quiaais3rm7F"
+1510805977699	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805977699	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805977699	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805977706	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805977706	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805977707	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805977833	Marionette	INFO	Enabled via --marionette
+1510805977878	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805977878	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805977878	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805977878	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805977880	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805977880	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805977896	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510805977897	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510805978949	Marionette	INFO	Listening on port 43721
+1510805978977	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510805979021	Marionette	DEBUG	Register listener.js for window 2147483649
+1510805979040	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510805980121	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510805980121	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.b5a0fce2.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510806005522	geckodriver	INFO	geckodriver 0.19.1
+1510806005524	geckodriver	INFO	Listening on 127.0.0.1:60513
+1510806006632	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.960ZdWj0Yma6"
+1510806006859	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806006859	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806006859	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806006867	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806006867	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806006868	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806006976	Marionette	INFO	Enabled via --marionette
+1510806007020	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806007020	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806007021	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806007021	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806007022	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806007022	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806007039	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806007039	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806008113	Marionette	INFO	Listening on port 38823
+1510806008177	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510806008225	Marionette	DEBUG	Register listener.js for window 2147483649
+1510806008243	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510806017107	geckodriver	INFO	geckodriver 0.19.1
+1510806017109	geckodriver	INFO	Listening on 127.0.0.1:46585
+1510806018195	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ZgrxHpMQg9g6"
+1510806018416	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806018416	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806018417	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806018424	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806018424	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806018424	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806018539	Marionette	INFO	Enabled via --marionette
+1510806018584	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806018584	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806018585	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806018585	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806018586	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806018586	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806018606	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510806018606	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510806019650	Marionette	INFO	Listening on port 38977
+1510806019715	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510806019763	Marionette	DEBUG	Register listener.js for window 2147483649
+1510806019779	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510806021029	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510806021030	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.1adb7e40.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510806021862	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510806022035	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510811419182	geckodriver	INFO	geckodriver 0.19.1
+1510811419186	geckodriver	INFO	Listening on 127.0.0.1:44849
+1510811745138	geckodriver	INFO	geckodriver 0.19.1
+1510811745140	geckodriver	INFO	Listening on 127.0.0.1:56689
+1510811746222	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Nnxwq1vthIVH"
+1510811746461	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811746462	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811746462	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811746470	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811746470	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811746470	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811746591	Marionette	INFO	Enabled via --marionette
+1510811746644	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811746645	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811746645	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811746645	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811746646	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811746646	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811746663	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811746663	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811747762	Marionette	INFO	Listening on port 46315
+1510811747831	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510811747872	Marionette	DEBUG	Register listener.js for window 2147483649
+1510811747889	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510811749206	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510811749207	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.61801754.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510811750504	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510811750936	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510811958220	geckodriver	INFO	geckodriver 0.19.1
+1510811958222	geckodriver	INFO	Listening on 127.0.0.1:45971
+1510811959322	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.v50QCA7jv3Wt"
+1510811959564	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811959564	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811959564	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811959572	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811959572	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811959572	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811959699	Marionette	INFO	Enabled via --marionette
+1510811959748	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811959748	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811959749	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811959749	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811959750	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811959751	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811959768	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510811959769	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510811960914	Marionette	INFO	Listening on port 40215
+1510811960967	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510811961024	Marionette	DEBUG	Register listener.js for window 2147483649
+1510811961089	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510811962337	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510811962337	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.f5d2105e.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510811963382	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510811963585	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510812158712	geckodriver	INFO	geckodriver 0.19.1
+1510812158714	geckodriver	INFO	Listening on 127.0.0.1:33665
+1510812159796	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.POuUcXIEhvOg"
+1510812160024	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812160024	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812160024	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812160032	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812160032	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812160032	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812160163	Marionette	INFO	Enabled via --marionette
+1510812160208	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812160208	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812160208	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812160209	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812160210	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812160210	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812160227	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812160227	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812161364	Marionette	INFO	Listening on port 43465
+1510812161411	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510812161459	Marionette	DEBUG	Register listener.js for window 2147483649
+1510812161479	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510812162856	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510812162856	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.f5d2105e.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510812163823	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510812164122	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510812252667	geckodriver	INFO	geckodriver 0.19.1
+1510812252669	geckodriver	INFO	Listening on 127.0.0.1:44755
+1510812253778	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8QOUifjYNTgD"
+1510812254021	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812254021	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812254021	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812254029	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812254029	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812254030	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812254156	Marionette	INFO	Enabled via --marionette
+1510812254206	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812254206	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812254206	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812254206	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812254208	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812254208	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812254227	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812254227	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812255417	Marionette	INFO	Listening on port 37363
+1510812255494	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510812255549	Marionette	DEBUG	Register listener.js for window 2147483649
+1510812255564	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510812256631	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510812256632	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.1adb7e40.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510812257782	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510812257979	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510812653174	geckodriver	INFO	geckodriver 0.19.1
+1510812653176	geckodriver	INFO	Listening on 127.0.0.1:35103
+1510812654258	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.bvpPfSheUddj"
+1510812654496	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812654496	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812654496	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812654503	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812654504	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812654504	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812654636	Marionette	INFO	Enabled via --marionette
+1510812654683	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812654683	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812654683	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812654683	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812654685	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812654685	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812654702	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812654702	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812655735	Marionette	INFO	Listening on port 46463
+1510812655810	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510812655863	Marionette	DEBUG	Register listener.js for window 2147483649
+1510812655886	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510812657475	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510812657475	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.b5a0fce2.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510812658568	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510812658660	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510812782629	geckodriver	INFO	geckodriver 0.19.1
+1510812782631	geckodriver	INFO	Listening on 127.0.0.1:58127
+1510812783712	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.s6NWxKOwlwc5"
+1510812784053	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812784054	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812784054	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812784061	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812784062	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812784062	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812784187	Marionette	INFO	Enabled via --marionette
+1510812784231	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812784232	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812784232	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812784232	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812784233	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812784233	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812784251	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812784251	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812785268	Marionette	INFO	Listening on port 32883
+1510812785320	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bitfinex.com/wassets/app.1adb7e40.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510812968185	geckodriver	INFO	geckodriver 0.19.1
+1510812968187	geckodriver	INFO	Listening on 127.0.0.1:48973
+1510812969272	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.QSU0SaNzgqOY"
+1510812969512	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812969512	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812969512	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812969520	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812969520	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812969520	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812969672	Marionette	INFO	Enabled via --marionette
+1510812969718	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812969718	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812969718	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812969718	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812969720	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812969720	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812969737	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510812969737	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510812970723	Marionette	INFO	Listening on port 37945
+1510812970818	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510812970862	Marionette	DEBUG	Register listener.js for window 2147483649
+1510812970877	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510812972007	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510812972008	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.1f01d8d0.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510812972860	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510812972973	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510813198396	geckodriver	INFO	geckodriver 0.19.1
+1510813198399	geckodriver	INFO	Listening on 127.0.0.1:47015
+1510813199484	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FsUucROV4wPu"
+1510813199746	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813199747	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813199747	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813199757	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813199757	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813199757	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813199883	Marionette	INFO	Enabled via --marionette
+1510813199929	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813199929	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813199930	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813199930	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813199931	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813199931	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813199949	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813199949	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813201049	Marionette	INFO	Listening on port 32971
+1510813201096	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bitfinex.com/wassets/app.1adb7e40.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510813394108	geckodriver	INFO	geckodriver 0.19.1
+1510813394110	geckodriver	INFO	Listening on 127.0.0.1:43141
+1510813395193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fOZQwhDpe7Zu"
+1510813395416	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813395416	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813395416	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813395424	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813395424	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813395424	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813395533	Marionette	INFO	Enabled via --marionette
+1510813395580	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813395580	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813395581	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813395581	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813395582	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813395582	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813395599	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813395599	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813396683	Marionette	INFO	Listening on port 37925
+1510813396723	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510813396766	Marionette	DEBUG	Register listener.js for window 2147483649
+1510813396780	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510813397998	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510813397998	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://www.bitfinex.com/wassets/app.33fd4abb.js, line 1: Error: Minified React error #200; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=200 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1510813398948	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510813399144	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.bitfinex.com/order_book/ltcbtc"
+1510813906271	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813906274	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510813906277	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510813906277	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510814025559	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1510814025559	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1510815138371	Marionette	DEBUG	Register listener.js for window 2147483653
+1510815138508	Marionette	DEBUG	Register listener.js for window 4294967297
+JavaScript warning: https://d2sl9eawlu179j.cloudfront.net/js/bundle-hub2.js?1510702974121, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://d2sl9eawlu179j.cloudfront.net/js/bundle-hub2.js?1510702974121 line 780 > eval, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1510815156688	Marionette	DEBUG	Register listener.js for window 6442450945
+JavaScript warning: https://d2sl9eawlu179j.cloudfront.net/js/bundle-hub2.js?1510702974121, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://d2sl9eawlu179j.cloudfront.net/js/bundle-hub2.js?1510702974121 line 780 > eval, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1511835888260	geckodriver	INFO	geckodriver 0.19.1
+1511835888267	geckodriver	INFO	Listening on 127.0.0.1:47307
+1511835889371	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.tfQew1airOsz"
+
+(firefox:14844): Gtk-WARNING **: Theme parsing error: progress-scale.css:194:22: '' is not a valid color name
+
+(firefox:14844): Gtk-WARNING **: Theme parsing error: sidebar.css:77:12: 'text-align' is not a valid property name
+1511835889912	Marionette	INFO	Enabled via --marionette
+
+(/usr/lib/firefox/firefox:14899): Gtk-WARNING **: Theme parsing error: progress-scale.css:194:22: '' is not a valid color name
+
+(/usr/lib/firefox/firefox:14899): Gtk-WARNING **: Theme parsing error: sidebar.css:77:12: 'text-align' is not a valid property name
+1511835891131	Marionette	INFO	Listening on port 44903
+1511835891187	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511835891273	Marionette	DEBUG	Register listener.js for window 2147483649
+1511835891305	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+
+(/usr/lib/firefox/firefox:14951): Gtk-WARNING **: Theme parsing error: progress-scale.css:194:22: '' is not a valid color name
+
+(/usr/lib/firefox/firefox:14951): Gtk-WARNING **: Theme parsing error: sidebar.css:77:12: 'text-align' is not a valid property name
