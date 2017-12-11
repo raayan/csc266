@@ -411,8 +411,8 @@ void *simulate_market_cpu(void *threadarg) {
 int main(int argc, char *argv[]) {
 	printf("[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize\n");
 
-	if(argc != 5) {
-		fprintf(stderr, "Usage: %s gpu trades generations blocksize\n", argv[0]);
+	if(argc != 6) {
+		fprintf(stderr, "Usage: %s gpu trades generations blocksize symbol\n", argv[0]);
 		fprintf(stderr, "gpu=0 for cpu\n");
 		exit(1);
 	}
@@ -421,7 +421,7 @@ int main(int argc, char *argv[]) {
 // Get the current order book
 	string baseURL = "https://api.bitfinex.com/v1";
 	string type = "stats";
-	string symbol = "ltcbtc";
+	string symbol = argv[5];
 	string URL = baseURL + "/" + type + "/" + symbol;
 	json data = get_response(URL);
 
