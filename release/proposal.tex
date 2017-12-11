@@ -1,0 +1,147 @@
+
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{csvsimple}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[section]{placeins}
+\usepackage{siunitx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{pgfplots}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{reflection}[2][Reflection]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{proposition}[2][Proposition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newcommand{\csvloopx}[2][]{\csvloop{#1,#2}}
+\newcommand{\csvautotabularx}[2][]{\csvloopx[#1]{autotabular={#2}}}
+\newcommand{\respectpercent}{\catcode`\%=12\relax}
+
+\urlstyle{same}
+
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+ 
+%\renewcommand{\qedsymbol}{\filledbox}
+ 
+\title{
+Future-Model Simulation using CUDA
+}
+\author{
+Raayan Pillai %name
+\\
+CSC 266 %class
+} %if necessary, replace with your course title
+\maketitle
+ 
+\section{Introduction}
+My inspiration for this project is a side project that I have been working on for the past year. 
+A friend and I have been developing an engine for analyzing and taking advantage of market-making and arbitrage oppurtunities between variouos cryptocurrency exchanges. 
+The data comes in through  websockets and REST APIs and is decomposed to an object-structure in Java. 
+A problem with this project is that there are poor response times from some of these exchanges because they do not have perfect stability. 
+Another approach to working with these markets would be to create speculative models. 
+One way of doing this is by simulating markets to predict a future model.
+Predicting an accurate future model requires many possible futures, generated very quickly.
+
+\section{Proposed Implementation}
+\subsection{Market Model}
+Markets are represented by four qualities, base currency, counter currency, $min\_ask$ price and $max\_bid$ price. 
+The base and counter currencies are the ones being traded. 
+The $min\_ask$ price is the cheapest one being sold and the $max\_bid$ price is the highest price someone will pay for the exchange. 
+The $min\_ask > max\_bid$. 
+Now these values are all supported by the order book, which is a representation of all the buy orders and all the sell orders. 
+This is represented by some distribution which can be modelled by a uni or multi-modal gaussian. 
+
+\pgfmathdeclarefunction{gauss}{2}{%
+  \pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}%
+}
+
+\begin{tikzpicture}
+\begin{axis}[
+  no markers, domain=0:10, samples=100,
+  axis lines*=left, xlabel=$x$, ylabel=$y$,
+  every axis y label/.style={at=(current axis.above origin),anchor=south},
+  every axis x label/.style={at=(current axis.right of origin),anchor=west},
+  height=5cm, width=12cm,
+  xtick={4.5,5.5}, ytick=\empty,
+  enlargelimits=false, clip=false, axis on top,
+  grid = major
+  ]
+  \addplot [fill=cyan!20, draw=none, domain=4.5:5.5] {gauss(5,1)} \closedcycle;
+  \addplot [very thick,cyan!50!black] {gauss(5,1)};
+
+
+\draw [yshift=-0.6cm, latex-latex](axis cs:3,0) -- node [fill=white] {$max\_bid$} (axis cs:4.5,0);
+\draw [yshift=-0.6cm, latex-latex](axis cs:5.5,0) -- node [fill=white] {$min\_ask$} (axis cs:7,0);
+\end{axis}
+
+\end{tikzpicture}
+
+
+Most simply by the figure above, this model would propose the $mean\_price$ is around 5.
+
+\subsection{GPU Accelerated Future-Model Simulation}
+Now that we have a model of the market represented by a gaussian distribution we can simulate a future. Suppose you have program P, it has a market model $M$ which has $k$ transactions, at time $t_1$. 
+Each transaction $T$ has a $price > 0$, and a $quantity \neq 0$ (negative: selling, positive: buying). 
+Now on this model you have a hypothetical $trader$ this object will place buy and sell orders based on the gaussian distribution to simulate actions on the market, corresponding to the order density from time $t_1$ to $t_2$. 
+The resulting market model $M-future$ is a possibile future model of the market at time $t_2$.
+This simultion is only one possibility derived from relatively simple computations.
+This process could benefit heavily from parallel processing.
+Replicating this process among thousands of threads would allow for a variety of normal distribuations which could then be combined to form a \emph{Mixture distribution}.
+This distribution can later be used to create a prediction of the future $min\_ask$ and $max\_bid$ prices but that is less of a parallel programming exploration and more of a data science one.
+This problem will require thorough memory management to find a proper size of market model and simulation time to maximize the amount of threads generating futures because quantity is what is important in this problem. 
+Global memory will be used to store the gaussian and the base market model. 
+Each thread will have its own representation of the market so it will be interesting to see how much can fit without reducing the thread count.
+
+\newpage
+\subsection{Algorithm (Python)}
+\lstinputlisting[
+		language=Python,
+		numbers=left,
+		]{scraper/for_report.py}
+
+\subsection{Multithreaded on GPU}
+Lines 13 to 28  will be run on individual GPU threads. 
+The quantity of threads will be based on the availible memory divided by the book size, since each thread will need its own copy of the book. 
+After computation of the future models the average mean will be taken as the likely price. 
+This algorithm will be multithreaded on a CPU and compared to the GPU version to measure performance.
+Both versions will be compared to the actual future price of the book to measure accuracy.
+The CUDA implimentation will be done in C++ so the python packages being used for normal distributions will need to be implimented.
+
+
+\section{Afterword}
+I am no longer using the data generated for my CSC 240 project, to avoid any possible complications.
+
+\section{Sources}
+\url{https://www.bitfinex.com/order_book} \\
+\url{https://docs.bitfinex.com/v1/reference#rest-public-orderbook} \\
+\url{https://en.wikipedia.org/wiki/Normal_distribution} \\
+\url{https://en.wikipedia.org/wiki/Sum_of_normally_distributed_random_variables} \\
+\url{https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch37.html}
+
+\end{document}
