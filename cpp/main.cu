@@ -5,7 +5,9 @@
 #include <errno.h>
 #include <random>
 #include <vector>
+#include <ctime>
 #include <math.h>
+#include <pthread.h>
 // CUDA imports
 #include <curand.h>
 #include <curand_kernel.h>
@@ -314,30 +316,39 @@ __global__ void simulate_market(MarketBook in_book, int generations, curandState
 
 
 /////////////////////////// CPU stuff: ///////////////////////////
+struct thread_data
+{
+	double mean;
+	double stddev;
+	int g;
+	MarketBook book;
+};
+
 static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *userp)
 {
 	((std::string*)userp)->append((char*)contents, size * nmemb);
 	return size * nmemb;
 }
 
-int main(int argc, char *argv[]) {
-	if(argc != 5) {
-		fprintf(stderr, "Usage: %s gpu trades generations blocksize\n", argv[0]);
-		fprintf(stderr, "gpu=0 for cpu\n");
-		exit(1);
-	}
+std::string get_time() {
+	time_t t = time(0);
+	char cstr[128];
+	strftime(cstr, sizeof(cstr), "%Y-%m-%d %H:%M:%S", localtime(&t) );
+	return cstr;
+}
 
+std::string get_time(int ss) {
+	time_t t = time(0)+ ss;
+	char cstr[128];
+	strftime(cstr, sizeof(cstr), "%Y-%m-%d %H:%M:%S", localtime(&t));
+	return cstr;
+}
 
-// Get the current order book
-	string baseURL = "https://api.bitfinex.com/v1";
+json get_response(string URL) {
 	CURL *curl;
 	CURLcode res;
 	string readBuffer;
 	json data;
-
-	string type = "stats";
-	string symbol = "ltcbtc";
-	string URL = baseURL + "/" + type + "/" + symbol;
 	curl = curl_easy_init();
 	if(curl) {
 		curl_easy_setopt(curl, CURLOPT_URL, URL.c_str());
@@ -347,31 +358,13 @@ int main(int argc, char *argv[]) {
 		curl_easy_cleanup(curl);
 		data = json::parse(readBuffer.c_str());
 	}
+	return data;
+}
 
-	double volume24 = atof(data[0]["volume"].get<string>().c_str());
-
-	type = "book";
-	URL = baseURL + "/" + type + "/" + symbol;
-	curl = curl_easy_init();
-	string readBuffer2;
-	if(curl) {
-		curl_easy_setopt(curl, CURLOPT_URL, URL.c_str());
-		curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
-		curl_easy_setopt(curl, CURLOPT_WRITEDATA, &readBuffer2);
-		res = curl_easy_perform(curl);
-		curl_easy_cleanup(curl);
-		data = json::parse(readBuffer2.c_str());
-	}
-
-	int trades = atoi(argv[2]);
-	int generations = atoi(argv[3]);
-	int blocksize = atoi(argv[4]);
-
+MarketBook get_market_book(json data) {
 	json obj;
 	double amount, price;
 	MarketBook book;
-
-
 	for(int i=0; i<data["bids"].size(); i++){
 		obj = data["bids"][i];
 		amount = atof(obj["amount"].get<string>().c_str());
@@ -384,27 +377,103 @@ int main(int argc, char *argv[]) {
 		price = atof(obj["price"].get<string>().c_str());
 		book.asks[i] = Order(price, amount);
 	}
+	return book;
+}
 
-	printf("[b] mean: %f, std-dev: %f\n", book.calculate_mean(), book.calculate_stddev());
+void *simulate_market_cpu(void *threadarg) {
+	thread_data *my_data;
+	my_data = (thread_data *) threadarg;
+	MarketBook book = my_data->book;
+	int g = my_data->g;
+	default_random_engine generator;
+	double gen_mean, gen_stddev, number;
+	for(int i=0; i<g; i++) {
+		gen_mean = book.calculate_mean();
+		gen_stddev = book.calculate_stddev();
+		normal_distribution<double> distribution(gen_mean, gen_stddev);
+		number = distribution(generator);
+		if(rand()%2) {
+			book.insert_order(Order(number, 1), false);
+		} else {
+			book.insert_order(Order(number, 1), true);
+		}
+	}
+	my_data->mean = book.calculate_mean();
+	my_data->stddev = book.calculate_stddev();
+}
+
+int main(int argc, char *argv[]) {
+	if(argc != 5) {
+		fprintf(stderr, "Usage: %s gpu trades generations blocksize\n", argv[0]);
+		fprintf(stderr, "gpu=0 for cpu\n");
+		exit(1);
+	}
+
+
+// Get the current order book
+	string baseURL = "https://api.bitfinex.com/v1";
+	string type = "stats";
+	string symbol = "ltcbtc";
+	string URL = baseURL + "/" + type + "/" + symbol;
+	json data = get_response(URL);
+
+	double volume24 = atof(data[0]["volume"].get<string>().c_str());
+	double volume1sec = volume24*1.0/(24*60*60);
+
+	type = "book";
+	URL = baseURL + "/" + type + "/" + symbol;
+	data = get_response(URL);
+
+	int trades = atoi(argv[2]);
+	int generations = atoi(argv[3]);
+	int blocksize = atoi(argv[4]);
+	MarketBook book = get_market_book(data);
+
+	
+	printf("[%s][r] mean: %f, std-dev: %f\n", get_time().c_str(),  book.calculate_mean(), book.calculate_stddev());
 
 	if(atoi(argv[1]) == 0) {
 	// CPU
-		default_random_engine generator;
-		double gen_mean, gen_stddev, number;
-		for(int i=0; i<generations; i++) {
-			gen_mean = book.calculate_mean();
-			gen_stddev = book.calculate_stddev();
-			normal_distribution<double> distribution(gen_mean, gen_stddev);
-			number = distribution(generator);
-			book.insert_order(Order(number, 1), true);
-		}
-//		cout << book.calculate_total() << ", " << book.calculate_mean() << ", " << book.calculate_stddev() << endl;
+		ggc::Timer t("generations");
 
+		pthread_t threads[generations];
+		thread_data thread_data_array[generations];
+		pthread_attr_t th_attr;
+		pthread_attr_init(&th_attr);
+		pthread_attr_setdetachstate(&th_attr, PTHREAD_CREATE_JOINABLE);
+
+		t.start();
+		for(int i=0; i<generations; i++) {
+			thread_data_array[i].g = generations;
+			thread_data_array[i].book = book;
+			pthread_create(&threads[i], &th_attr, simulate_market_cpu, (void *) &thread_data_array[i]);
+		}
+		for(int i=0; i<generations; i++) {
+			pthread_join(threads[i], NULL);
+		}
+		t.stop();
+
+		double avg_stddev = 0;
+		double avg_mean = 0;
+		for(int i=0; i<generations; i++) {
+			avg_stddev += thread_data_array[i].stddev;
+			avg_mean += thread_data_array[i].mean;
+		}
+		avg_stddev = avg_stddev/generations;
+		avg_mean = avg_mean/generations;
+		printf("[%s][p] avg-mean: %f, avg-std-dev: %f\n", get_time().c_str(), avg_mean, avg_stddev);
+		printf("[%s][i] runtime: %llu ms\n", get_time().c_str(), t.duration()/1000000);
+		printf("[%s][i] price-expected-at: %s (%fs)\n", get_time().c_str(), get_time(trades*1.0/volume1sec).c_str(), trades*1.0/volume1sec);
+
+		printf("[%s][i] sleeping for %fs\n", get_time().c_str(), trades*1.0/volume1sec);
+		sleep(trades*1.0/volume1sec);
+		MarketBook new_book = get_market_book(get_response(URL));
+		printf("[%s][r] mean: %f, std-dev: %f\n", get_time().c_str(), new_book.calculate_mean(), new_book.calculate_stddev());
+		
 
 	} else {
 	// GPU
 	// Setup
-		ggc::Timer t("generations");
 	// Create GPU timers
 		cudaEvent_t start, stop;
 		float total;
@@ -426,7 +495,6 @@ int main(int argc, char *argv[]) {
 		cudaMallocManaged(&means, generations*sizeof(double));
 		cudaMallocManaged(&devs, generations*sizeof(double));
 
-		double volume1sec = volume24*1.0/(24*60*60);
 
 		setup_kernel<<<ceil(1.0*generations/blocksize), blocksize>>>(devStates);
 
@@ -451,8 +519,15 @@ int main(int argc, char *argv[]) {
 		avg_stddev = avg_stddev/generations;
 		avg_mean = avg_mean/generations;
 		
-		printf("[f] avg-mean: %f, avg-std-dev: %f\n", avg_mean, avg_stddev);
-		printf("[f] runtime: %f (ms), price-expected-in: %f (s)\n", total, trades*1.0/volume1sec);
+		printf("[%s][p] avg-mean: %f, avg-std-dev: %f\n", get_time().c_str(), avg_mean, avg_stddev);
+		printf("[%s][i] runtime: %f ms\n", get_time().c_str(), total);
+		printf("[%s][i] price-expected-at: %s (%fs)\n", get_time().c_str(), get_time(trades*1.0/volume1sec).c_str(), trades*1.0/volume1sec);
+
+		printf("[%s][i] sleeping for %fs\n", get_time().c_str(), trades*1.0/volume1sec);
+
+		sleep(trades*1.0/volume1sec);
+		MarketBook new_book = get_market_book(get_response(URL));
+		printf("[%s][r] mean: %f, std-dev: %f\n", get_time().c_str(), new_book.calculate_mean(), new_book.calculate_stddev());
 		
 	
 	// CUDA cleanup
