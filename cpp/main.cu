@@ -344,6 +344,11 @@ std::string get_time(int ss) {
 	return cstr;
 }
 
+int get_ts() {
+	time_t t = time(0);
+	return t;
+}
+
 json get_response(string URL) {
 	CURL *curl;
 	CURLcode res;
@@ -402,7 +407,10 @@ void *simulate_market_cpu(void *threadarg) {
 	my_data->stddev = book.calculate_stddev();
 }
 
+
 int main(int argc, char *argv[]) {
+	printf("[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize\n");
+
 	if(argc != 5) {
 		fprintf(stderr, "Usage: %s gpu trades generations blocksize\n", argv[0]);
 		fprintf(stderr, "gpu=0 for cpu\n");
@@ -424,6 +432,7 @@ int main(int argc, char *argv[]) {
 	URL = baseURL + "/" + type + "/" + symbol;
 	data = get_response(URL);
 
+	int gpu = atoi(argv[1]);
 	int trades = atoi(argv[2]);
 	int generations = atoi(argv[3]);
 	int blocksize = atoi(argv[4]);
@@ -432,8 +441,11 @@ int main(int argc, char *argv[]) {
 	
 	printf("[%s][r] mean: %f, std-dev: %f\n", get_time().c_str(),  book.calculate_mean(), book.calculate_stddev());
 
-	if(atoi(argv[1]) == 0) {
+	if(gpu == 0) {
 	// CPU
+		double b_mean = book.calculate_mean();
+		double b_stddev = book.calculate_stddev();
+		int b_ts = get_ts();
 		ggc::Timer t("generations");
 
 		pthread_t threads[generations];
@@ -461,6 +473,7 @@ int main(int argc, char *argv[]) {
 		}
 		avg_stddev = avg_stddev/generations;
 		avg_mean = avg_mean/generations;
+		int p_ts = get_ts();
 		printf("[%s][p] avg-mean: %f, avg-std-dev: %f\n", get_time().c_str(), avg_mean, avg_stddev);
 		printf("[%s][i] runtime: %llu ms\n", get_time().c_str(), t.duration()/1000000);
 		printf("[%s][i] price-expected-at: %s (%fs)\n", get_time().c_str(), get_time(trades*1.0/volume1sec).c_str(), trades*1.0/volume1sec);
@@ -468,10 +481,15 @@ int main(int argc, char *argv[]) {
 		printf("[%s][i] sleeping for %fs\n", get_time().c_str(), trades*1.0/volume1sec);
 		sleep(trades*1.0/volume1sec);
 		MarketBook new_book = get_market_book(get_response(URL));
+		int a_ts = get_ts();
 		printf("[%s][r] mean: %f, std-dev: %f\n", get_time().c_str(), new_book.calculate_mean(), new_book.calculate_stddev());
+		printf("[OUTPUT][o]:%d, %f, %f, %d, %f, %f, %d, %f, %f, %f, %d, %d, %d, %d\n", b_ts, b_mean, b_stddev, p_ts, avg_mean, avg_stddev, a_ts, new_book.calculate_mean(), new_book.calculate_stddev(), t.duration()/1000000.0, gpu, trades, generations, blocksize);
 		
 
 	} else {
+		double b_mean = book.calculate_mean();
+		double b_stddev = book.calculate_stddev();
+		int b_ts = get_ts();
 	// GPU
 	// Setup
 	// Create GPU timers
@@ -484,7 +502,7 @@ int main(int argc, char *argv[]) {
 		int devID;
 		devID = gpuGetMaxGflopsDeviceId();
 		checkCudaErrors(cudaSetDevice(devID));
-
+		
 		curandState *devStates;
 		curandGenerator_t gen;
 		cudaMalloc((void **)&devStates, 64*64*sizeof(curandState));
@@ -516,6 +534,7 @@ int main(int argc, char *argv[]) {
 			avg_stddev += devs[i];
 			avg_mean += means[i];
 		}
+		int p_ts = get_ts();
 		avg_stddev = avg_stddev/generations;
 		avg_mean = avg_mean/generations;
 		
@@ -526,8 +545,11 @@ int main(int argc, char *argv[]) {
 		printf("[%s][i] sleeping for %fs\n", get_time().c_str(), trades*1.0/volume1sec);
 
 		sleep(trades*1.0/volume1sec);
+		int a_ts = get_ts();
 		MarketBook new_book = get_market_book(get_response(URL));
 		printf("[%s][r] mean: %f, std-dev: %f\n", get_time().c_str(), new_book.calculate_mean(), new_book.calculate_stddev());
+	
+		printf("[OUTPUT][o]:%d, %f, %f, %d, %f, %f, %d, %f, %f, %f, %d, %d, %d, %d\n", b_ts, b_mean, b_stddev, p_ts, avg_mean, avg_stddev, a_ts, new_book.calculate_mean(), new_book.calculate_stddev(), total, gpu, trades, generations, blocksize);
 		
 	
 	// CUDA cleanup

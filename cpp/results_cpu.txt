@@ -1,0 +1,474 @@
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:42:05][r] mean: 0.011929, std-dev: 0.000047
+[2017-12-11 13:42:05][p] avg-mean: 0.011929, avg-std-dev: 0.000047
+[2017-12-11 13:42:05][i] runtime: 0 ms
+[2017-12-11 13:42:05][i] price-expected-at: 2017-12-11 13:42:05 (0.262078s)
+[2017-12-11 13:42:05][i] sleeping for 0.262078s
+[2017-12-11 13:42:05][r] mean: 0.011927, std-dev: 0.000049
+[OUTPUT][o]:1513017725, 0.011929, 0.000047, 1513017725, 0.011929, 0.000047, 1513017725, 0.011927, 0.000049, 0.072544, 0, 1, 1, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:42:07][r] mean: 0.011927, std-dev: 0.000049
+[2017-12-11 13:42:07][p] avg-mean: 0.011927, avg-std-dev: 0.000049
+[2017-12-11 13:42:07][i] runtime: 0 ms
+[2017-12-11 13:42:07][i] price-expected-at: 2017-12-11 13:42:07 (0.262078s)
+[2017-12-11 13:42:07][i] sleeping for 0.262078s
+[2017-12-11 13:42:07][r] mean: 0.011927, std-dev: 0.000049
+[OUTPUT][o]:1513017727, 0.011927, 0.000049, 1513017727, 0.011927, 0.000049, 1513017727, 0.011927, 0.000049, 0.368223, 0, 1, 6, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:42:10][r] mean: 0.011927, std-dev: 0.000049
+[2017-12-11 13:42:10][p] avg-mean: 0.011926, avg-std-dev: 0.000049
+[2017-12-11 13:42:10][i] runtime: 0 ms
+[2017-12-11 13:42:10][i] price-expected-at: 2017-12-11 13:42:10 (0.262078s)
+[2017-12-11 13:42:10][i] sleeping for 0.262078s
+[2017-12-11 13:42:10][r] mean: 0.011926, std-dev: 0.000042
+[OUTPUT][o]:1513017730, 0.011927, 0.000049, 1513017730, 0.011926, 0.000049, 1513017730, 0.011926, 0.000042, 0.728312, 0, 1, 12, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:42:11][r] mean: 0.011926, std-dev: 0.000042
+[2017-12-11 13:42:11][p] avg-mean: 0.011914, avg-std-dev: 0.000041
+[2017-12-11 13:42:11][i] runtime: 1 ms
+[2017-12-11 13:42:11][i] price-expected-at: 2017-12-11 13:42:11 (0.262078s)
+[2017-12-11 13:42:11][i] sleeping for 0.262078s
+[2017-12-11 13:42:12][r] mean: 0.011930, std-dev: 0.000043
+[OUTPUT][o]:1513017731, 0.011926, 0.000042, 1513017731, 0.011914, 0.000041, 1513017732, 0.011930, 0.000043, 1.364017, 0, 1, 36, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:42:13][r] mean: 0.011930, std-dev: 0.000043
+[2017-12-11 13:42:13][p] avg-mean: 0.011908, avg-std-dev: 0.000044
+[2017-12-11 13:42:13][i] runtime: 4 ms
+[2017-12-11 13:42:13][i] price-expected-at: 2017-12-11 13:42:13 (0.262078s)
+[2017-12-11 13:42:13][i] sleeping for 0.262078s
+[2017-12-11 13:42:14][r] mean: 0.011930, std-dev: 0.000043
+[OUTPUT][o]:1513017733, 0.011930, 0.000043, 1513017733, 0.011908, 0.000044, 1513017734, 0.011930, 0.000043, 4.171275, 0, 1, 72, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:42:15][r] mean: 0.011924, std-dev: 0.000047
+[2017-12-11 13:42:15][p] avg-mean: 0.011889, avg-std-dev: 0.000034
+[2017-12-11 13:42:15][i] runtime: 15 ms
+[2017-12-11 13:42:15][i] price-expected-at: 2017-12-11 13:42:15 (0.262078s)
+[2017-12-11 13:42:15][i] sleeping for 0.262078s
+[2017-12-11 13:42:16][r] mean: 0.011924, std-dev: 0.000047
+[OUTPUT][o]:1513017735, 0.011924, 0.000047, 1513017735, 0.011889, 0.000034, 1513017736, 0.011924, 0.000047, 15.763180, 0, 1, 144, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:42:17][r] mean: 0.011924, std-dev: 0.000047
+[2017-12-11 13:42:17][p] avg-mean: -nan, avg-std-dev: nan
+[2017-12-11 13:42:17][i] runtime: 685 ms
+[2017-12-11 13:42:17][i] price-expected-at: 2017-12-11 13:42:17 (0.262078s)
+[2017-12-11 13:42:17][i] sleeping for 0.262078s
+[2017-12-11 13:42:18][r] mean: 0.011926, std-dev: 0.000052
+[OUTPUT][o]:1513017737, 0.011924, 0.000047, 1513017737, -nan, nan, 1513017738, 0.011926, 0.000052, 685.004247, 0, 1, 1024, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:57:44][r] mean: 0.011841, std-dev: 0.000093
+[2017-12-11 13:57:44][p] avg-mean: 0.011841, avg-std-dev: 0.000093
+[2017-12-11 13:57:44][i] runtime: 0 ms
+[2017-12-11 13:57:44][i] price-expected-at: 2017-12-11 13:57:44 (0.258916s)
+[2017-12-11 13:57:44][i] sleeping for 0.258916s
+[2017-12-11 13:57:44][r] mean: 0.011841, std-dev: 0.000093
+[OUTPUT][o]:1513018664, 0.011841, 0.000093, 1513018664, 0.011841, 0.000093, 1513018664, 0.011841, 0.000093, 0.101631, 0, 1, 1, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:57:44][r] mean: 0.011841, std-dev: 0.000093
+[2017-12-11 13:57:45][p] avg-mean: 0.011835, avg-std-dev: 0.000092
+[2017-12-11 13:57:45][i] runtime: 0 ms
+[2017-12-11 13:57:45][i] price-expected-at: 2017-12-11 13:57:45 (0.258916s)
+[2017-12-11 13:57:45][i] sleeping for 0.258916s
+[2017-12-11 13:57:45][r] mean: 0.011841, std-dev: 0.000093
+[OUTPUT][o]:1513018665, 0.011841, 0.000093, 1513018665, 0.011835, 0.000092, 1513018665, 0.011841, 0.000093, 0.327029, 0, 1, 6, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:57:45][r] mean: 0.011841, std-dev: 0.000093
+[2017-12-11 13:57:45][p] avg-mean: 0.011835, avg-std-dev: 0.000092
+[2017-12-11 13:57:45][i] runtime: 0 ms
+[2017-12-11 13:57:45][i] price-expected-at: 2017-12-11 13:57:45 (0.258916s)
+[2017-12-11 13:57:45][i] sleeping for 0.258916s
+[2017-12-11 13:57:45][r] mean: 0.011841, std-dev: 0.000093
+[OUTPUT][o]:1513018665, 0.011841, 0.000093, 1513018665, 0.011835, 0.000092, 1513018665, 0.011841, 0.000093, 0.516185, 0, 1, 12, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:57:47][r] mean: 0.011850, std-dev: 0.000084
+[2017-12-11 13:57:47][p] avg-mean: 0.011842, avg-std-dev: 0.000081
+[2017-12-11 13:57:47][i] runtime: 1 ms
+[2017-12-11 13:57:47][i] price-expected-at: 2017-12-11 13:57:47 (0.258916s)
+[2017-12-11 13:57:47][i] sleeping for 0.258916s
+[2017-12-11 13:57:48][r] mean: 0.011850, std-dev: 0.000084
+[OUTPUT][o]:1513018667, 0.011850, 0.000084, 1513018667, 0.011842, 0.000081, 1513018668, 0.011850, 0.000084, 1.203973, 0, 1, 36, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:57:49][r] mean: 0.011850, std-dev: 0.000084
+[2017-12-11 13:57:49][p] avg-mean: 0.011836, avg-std-dev: 0.000078
+[2017-12-11 13:57:49][i] runtime: 3 ms
+[2017-12-11 13:57:49][i] price-expected-at: 2017-12-11 13:57:49 (0.258916s)
+[2017-12-11 13:57:49][i] sleeping for 0.258916s
+[2017-12-11 13:57:49][r] mean: 0.011850, std-dev: 0.000084
+[OUTPUT][o]:1513018669, 0.011850, 0.000084, 1513018669, 0.011836, 0.000078, 1513018669, 0.011850, 0.000084, 3.940233, 0, 1, 72, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:57:49][r] mean: 0.011850, std-dev: 0.000084
+[2017-12-11 13:57:49][p] avg-mean: 0.011761, avg-std-dev: 0.000049
+[2017-12-11 13:57:49][i] runtime: 13 ms
+[2017-12-11 13:57:49][i] price-expected-at: 2017-12-11 13:57:49 (0.258916s)
+[2017-12-11 13:57:49][i] sleeping for 0.258916s
+[2017-12-11 13:57:50][r] mean: 0.011850, std-dev: 0.000084
+[OUTPUT][o]:1513018669, 0.011850, 0.000084, 1513018669, 0.011761, 0.000049, 1513018670, 0.011850, 0.000084, 13.879813, 0, 1, 144, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:57:51][r] mean: 0.011846, std-dev: 0.000091
+[2017-12-11 13:57:51][p] avg-mean: -nan, avg-std-dev: nan
+[2017-12-11 13:57:51][i] runtime: 663 ms
+[2017-12-11 13:57:51][i] price-expected-at: 2017-12-11 13:57:51 (0.258916s)
+[2017-12-11 13:57:51][i] sleeping for 0.258916s
+[2017-12-11 13:57:51][r] mean: 0.011846, std-dev: 0.000091
+[OUTPUT][o]:1513018671, 0.011846, 0.000091, 1513018671, -nan, nan, 1513018671, 0.011846, 0.000091, 663.325130, 0, 1, 1024, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:57:52][r] mean: 0.011846, std-dev: 0.000091
+[2017-12-11 13:57:52][p] avg-mean: 0.011846, avg-std-dev: 0.000091
+[2017-12-11 13:57:52][i] runtime: 0 ms
+[2017-12-11 13:57:52][i] price-expected-at: 2017-12-11 13:57:53 (1.294578s)
+[2017-12-11 13:57:52][i] sleeping for 1.294578s
+[2017-12-11 13:57:53][r] mean: 0.011839, std-dev: 0.000088
+[OUTPUT][o]:1513018672, 0.011846, 0.000091, 1513018672, 0.011846, 0.000091, 1513018673, 0.011839, 0.000088, 0.077400, 0, 5, 1, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:57:54][r] mean: 0.011839, std-dev: 0.000088
+[2017-12-11 13:57:54][p] avg-mean: 0.011835, avg-std-dev: 0.000087
+[2017-12-11 13:57:54][i] runtime: 0 ms
+[2017-12-11 13:57:54][i] price-expected-at: 2017-12-11 13:57:55 (1.294578s)
+[2017-12-11 13:57:54][i] sleeping for 1.294578s
+[2017-12-11 13:57:57][r] mean: 0.011847, std-dev: 0.000088
+[OUTPUT][o]:1513018674, 0.011839, 0.000088, 1513018674, 0.011835, 0.000087, 1513018677, 0.011847, 0.000088, 0.287748, 0, 5, 6, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 13:57:57][r] mean: 0.011847, std-dev: 0.000088
+[2017-12-11 13:57:57][p] avg-mean: 0.011839, avg-std-dev: 0.000086
+[2017-12-11 13:57:57][i] runtime: 0 ms
+[2017-12-11 13:57:57][i] price-expected-at: 2017-12-11 13:57:58 (1.294578s)
+[2017-12-11 13:57:57][i] sleeping for 1.294578s
+[2017-12-11 13:57:59][r] mean: 0.011847, std-dev: 0.000088
+[OUTPUT][o]:1513018677, 0.011847, 0.000088, 1513018677, 0.011839, 0.000086, 1513018679, 0.011847, 0.000088, 0.431005, 0, 5, 12, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:00:12][r] mean: 0.011835, std-dev: 0.000081
+[2017-12-11 14:00:12][p] avg-mean: 0.011835, avg-std-dev: 0.000081
+[2017-12-11 14:00:12][i] runtime: 0 ms
+[2017-12-11 14:00:12][i] price-expected-at: 2017-12-11 14:00:12 (0.258916s)
+[2017-12-11 14:00:12][i] sleeping for 0.258916s
+[2017-12-11 14:00:13][r] mean: 0.011835, std-dev: 0.000081
+[OUTPUT][o]:1513018812, 0.011835, 0.000081, 1513018812, 0.011835, 0.000081, 1513018813, 0.011835, 0.000081, 0.108171, 0, 1, 1, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:00:14][r] mean: 0.011835, std-dev: 0.000081
+[2017-12-11 14:00:14][p] avg-mean: 0.011829, avg-std-dev: 0.000078
+[2017-12-11 14:00:14][i] runtime: 0 ms
+[2017-12-11 14:00:14][i] price-expected-at: 2017-12-11 14:00:14 (0.258916s)
+[2017-12-11 14:00:14][i] sleeping for 0.258916s
+[2017-12-11 14:00:14][r] mean: 0.011835, std-dev: 0.000081
+[OUTPUT][o]:1513018814, 0.011835, 0.000081, 1513018814, 0.011829, 0.000078, 1513018814, 0.011835, 0.000081, 0.291323, 0, 1, 6, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:00:15][r] mean: 0.011835, std-dev: 0.000081
+[2017-12-11 14:00:15][p] avg-mean: 0.011830, avg-std-dev: 0.000077
+[2017-12-11 14:00:15][i] runtime: 0 ms
+[2017-12-11 14:00:15][i] price-expected-at: 2017-12-11 14:00:15 (0.258916s)
+[2017-12-11 14:00:15][i] sleeping for 0.258916s
+[2017-12-11 14:00:16][r] mean: 0.011828, std-dev: 0.000081
+[OUTPUT][o]:1513018815, 0.011835, 0.000081, 1513018815, 0.011830, 0.000077, 1513018816, 0.011828, 0.000081, 0.449649, 0, 1, 12, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:00:17][r] mean: 0.011828, std-dev: 0.000081
+[2017-12-11 14:00:17][p] avg-mean: 0.011820, avg-std-dev: 0.000077
+[2017-12-11 14:00:17][i] runtime: 1 ms
+[2017-12-11 14:00:17][i] price-expected-at: 2017-12-11 14:00:17 (0.258916s)
+[2017-12-11 14:00:17][i] sleeping for 0.258916s
+[2017-12-11 14:00:18][r] mean: 0.011828, std-dev: 0.000081
+[OUTPUT][o]:1513018817, 0.011828, 0.000081, 1513018817, 0.011820, 0.000077, 1513018818, 0.011828, 0.000081, 1.487188, 0, 1, 36, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:00:18][r] mean: 0.011842, std-dev: 0.000081
+[2017-12-11 14:00:18][p] avg-mean: 0.011824, avg-std-dev: 0.000070
+[2017-12-11 14:00:18][i] runtime: 4 ms
+[2017-12-11 14:00:18][i] price-expected-at: 2017-12-11 14:00:18 (0.258916s)
+[2017-12-11 14:00:18][i] sleeping for 0.258916s
+[2017-12-11 14:00:18][r] mean: 0.011842, std-dev: 0.000081
+[OUTPUT][o]:1513018818, 0.011842, 0.000081, 1513018818, 0.011824, 0.000070, 1513018818, 0.011842, 0.000081, 4.072308, 0, 1, 72, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:00:19][r] mean: 0.011842, std-dev: 0.000081
+[2017-12-11 14:00:19][p] avg-mean: 0.011781, avg-std-dev: 0.000037
+[2017-12-11 14:00:19][i] runtime: 14 ms
+[2017-12-11 14:00:19][i] price-expected-at: 2017-12-11 14:00:19 (0.258916s)
+[2017-12-11 14:00:19][i] sleeping for 0.258916s
+[2017-12-11 14:00:20][r] mean: 0.011842, std-dev: 0.000081
+[OUTPUT][o]:1513018819, 0.011842, 0.000081, 1513018819, 0.011781, 0.000037, 1513018820, 0.011842, 0.000081, 14.833434, 0, 1, 144, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:00:20][r] mean: 0.011842, std-dev: 0.000081
+[2017-12-11 14:00:20][p] avg-mean: 0.011842, avg-std-dev: 0.000081
+[2017-12-11 14:00:20][i] runtime: 0 ms
+[2017-12-11 14:00:20][i] price-expected-at: 2017-12-11 14:00:21 (1.294578s)
+[2017-12-11 14:00:20][i] sleeping for 1.294578s
+[2017-12-11 14:00:22][r] mean: 0.011839, std-dev: 0.000080
+[OUTPUT][o]:1513018820, 0.011842, 0.000081, 1513018820, 0.011842, 0.000081, 1513018822, 0.011839, 0.000080, 0.080426, 0, 5, 1, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:00:22][r] mean: 0.011839, std-dev: 0.000080
+[2017-12-11 14:00:22][p] avg-mean: 0.011832, avg-std-dev: 0.000076
+[2017-12-11 14:00:22][i] runtime: 0 ms
+[2017-12-11 14:00:22][i] price-expected-at: 2017-12-11 14:00:23 (1.294578s)
+[2017-12-11 14:00:22][i] sleeping for 1.294578s
+[2017-12-11 14:00:24][r] mean: 0.011839, std-dev: 0.000080
+[OUTPUT][o]:1513018822, 0.011839, 0.000080, 1513018822, 0.011832, 0.000076, 1513018824, 0.011839, 0.000080, 0.276721, 0, 5, 6, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:00:24][r] mean: 0.011833, std-dev: 0.000085
+[2017-12-11 14:00:24][p] avg-mean: 0.011829, avg-std-dev: 0.000079
+[2017-12-11 14:00:24][i] runtime: 0 ms
+[2017-12-11 14:00:24][i] price-expected-at: 2017-12-11 14:00:25 (1.294578s)
+[2017-12-11 14:00:24][i] sleeping for 1.294578s
+[2017-12-11 14:00:27][r] mean: 0.011833, std-dev: 0.000085
+[OUTPUT][o]:1513018824, 0.011833, 0.000085, 1513018824, 0.011829, 0.000079, 1513018827, 0.011833, 0.000085, 0.493627, 0, 5, 12, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:00:29][r] mean: 0.011836, std-dev: 0.000085
+[2017-12-11 14:00:29][p] avg-mean: 0.011821, avg-std-dev: 0.000079
+[2017-12-11 14:00:29][i] runtime: 1 ms
+[2017-12-11 14:00:29][i] price-expected-at: 2017-12-11 14:00:30 (1.294578s)
+[2017-12-11 14:00:29][i] sleeping for 1.294578s
+[2017-12-11 14:00:30][r] mean: 0.011836, std-dev: 0.000085
+[OUTPUT][o]:1513018829, 0.011836, 0.000085, 1513018829, 0.011821, 0.000079, 1513018830, 0.011836, 0.000085, 1.368128, 0, 5, 36, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:00:33][r] mean: 0.011837, std-dev: 0.000078
+[2017-12-11 14:00:33][p] avg-mean: 0.011817, avg-std-dev: 0.000067
+[2017-12-11 14:00:33][i] runtime: 4 ms
+[2017-12-11 14:00:33][i] price-expected-at: 2017-12-11 14:00:34 (1.294578s)
+[2017-12-11 14:00:33][i] sleeping for 1.294578s
+[2017-12-11 14:00:34][r] mean: 0.011834, std-dev: 0.000081
+[OUTPUT][o]:1513018833, 0.011837, 0.000078, 1513018833, 0.011817, 0.000067, 1513018834, 0.011834, 0.000081, 4.326646, 0, 5, 72, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:00:35][r] mean: 0.011834, std-dev: 0.000081
+[2017-12-11 14:00:35][p] avg-mean: 0.011774, avg-std-dev: 0.000048
+[2017-12-11 14:00:35][i] runtime: 14 ms
+[2017-12-11 14:00:35][i] price-expected-at: 2017-12-11 14:00:36 (1.294578s)
+[2017-12-11 14:00:35][i] sleeping for 1.294578s
+[2017-12-11 14:00:37][r] mean: 0.011828, std-dev: 0.000080
+[OUTPUT][o]:1513018835, 0.011834, 0.000081, 1513018835, 0.011774, 0.000048, 1513018837, 0.011828, 0.000080, 14.380410, 0, 5, 144, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:03:08][r] mean: 0.011749, std-dev: 0.000130
+[2017-12-11 14:03:08][p] avg-mean: 0.011749, avg-std-dev: 0.000130
+[2017-12-11 14:03:08][i] runtime: 0 ms
+[2017-12-11 14:03:08][i] price-expected-at: 2017-12-11 14:03:08 (0.258916s)
+[2017-12-11 14:03:08][i] sleeping for 0.258916s
+[2017-12-11 14:03:08][r] mean: 0.011749, std-dev: 0.000130
+[OUTPUT][o]:1513018988, 0.011749, 0.000130, 1513018988, 0.011749, 0.000130, 1513018988, 0.011749, 0.000130, 0.092035, 0, 1, 1, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:03:09][r] mean: 0.011749, std-dev: 0.000130
+[2017-12-11 14:03:09][p] avg-mean: 0.011749, avg-std-dev: 0.000130
+[2017-12-11 14:03:09][i] runtime: 0 ms
+[2017-12-11 14:03:09][i] price-expected-at: 2017-12-11 14:03:10 (1.294578s)
+[2017-12-11 14:03:09][i] sleeping for 1.294578s
+[2017-12-11 14:03:10][r] mean: 0.011749, std-dev: 0.000130
+[OUTPUT][o]:1513018989, 0.011749, 0.000130, 1513018989, 0.011749, 0.000130, 1513018990, 0.011749, 0.000130, 0.159976, 0, 5, 1, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:03:11][r] mean: 0.011749, std-dev: 0.000130
+[2017-12-11 14:03:11][p] avg-mean: 0.011749, avg-std-dev: 0.000130
+[2017-12-11 14:03:11][i] runtime: 0 ms
+[2017-12-11 14:03:11][i] price-expected-at: 2017-12-11 14:03:13 (2.589156s)
+[2017-12-11 14:03:11][i] sleeping for 2.589156s
+[2017-12-11 14:03:14][r] mean: 0.011749, std-dev: 0.000130
+[OUTPUT][o]:1513018991, 0.011749, 0.000130, 1513018991, 0.011749, 0.000130, 1513018994, 0.011749, 0.000130, 0.111846, 0, 10, 1, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:03:15][r] mean: 0.011835, std-dev: 0.000115
+[2017-12-11 14:03:15][p] avg-mean: 0.011835, avg-std-dev: 0.000115
+[2017-12-11 14:03:15][i] runtime: 0 ms
+[2017-12-11 14:03:15][i] price-expected-at: 2017-12-11 14:03:27 (12.945782s)
+[2017-12-11 14:03:15][i] sleeping for 12.945782s
+[2017-12-11 14:03:27][r] mean: 0.011837, std-dev: 0.000110
+[OUTPUT][o]:1513018995, 0.011835, 0.000115, 1513018995, 0.011835, 0.000115, 1513019007, 0.011837, 0.000110, 0.087743, 0, 50, 1, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:03:28][r] mean: 0.011837, std-dev: 0.000110
+[2017-12-11 14:03:28][p] avg-mean: 0.011837, avg-std-dev: 0.000110
+[2017-12-11 14:03:28][i] runtime: 0 ms
+[2017-12-11 14:03:28][i] price-expected-at: 2017-12-11 14:03:53 (25.891564s)
+[2017-12-11 14:03:28][i] sleeping for 25.891564s
+[2017-12-11 14:03:54][r] mean: 0.011833, std-dev: 0.000098
+[OUTPUT][o]:1513019008, 0.011837, 0.000110, 1513019008, 0.011837, 0.000110, 1513019034, 0.011833, 0.000098, 0.161759, 0, 100, 1, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:03:54][r] mean: 0.011833, std-dev: 0.000098
+[2017-12-11 14:03:54][p] avg-mean: 0.011827, avg-std-dev: 0.000096
+[2017-12-11 14:03:54][i] runtime: 0 ms
+[2017-12-11 14:03:54][i] price-expected-at: 2017-12-11 14:03:54 (0.258916s)
+[2017-12-11 14:03:54][i] sleeping for 0.258916s
+[2017-12-11 14:03:54][r] mean: 0.011833, std-dev: 0.000098
+[OUTPUT][o]:1513019034, 0.011833, 0.000098, 1513019034, 0.011827, 0.000096, 1513019034, 0.011833, 0.000098, 0.335410, 0, 1, 6, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:03:56][r] mean: 0.011826, std-dev: 0.000094
+[2017-12-11 14:03:56][p] avg-mean: 0.011833, avg-std-dev: 0.000084
+[2017-12-11 14:03:56][i] runtime: 0 ms
+[2017-12-11 14:03:56][i] price-expected-at: 2017-12-11 14:03:57 (1.294578s)
+[2017-12-11 14:03:56][i] sleeping for 1.294578s
+[2017-12-11 14:03:58][r] mean: 0.011826, std-dev: 0.000094
+[OUTPUT][o]:1513019036, 0.011826, 0.000094, 1513019036, 0.011833, 0.000084, 1513019038, 0.011826, 0.000094, 0.306210, 0, 5, 6, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:04:00][r] mean: 0.011844, std-dev: 0.000079
+[2017-12-11 14:04:00][p] avg-mean: 0.011840, avg-std-dev: 0.000073
+[2017-12-11 14:04:00][i] runtime: 0 ms
+[2017-12-11 14:04:00][i] price-expected-at: 2017-12-11 14:04:02 (2.589156s)
+[2017-12-11 14:04:00][i] sleeping for 2.589156s
+[2017-12-11 14:04:02][r] mean: 0.011844, std-dev: 0.000079
+[OUTPUT][o]:1513019040, 0.011844, 0.000079, 1513019040, 0.011840, 0.000073, 1513019042, 0.011844, 0.000079, 0.364068, 0, 10, 6, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:04:04][r] mean: 0.011826, std-dev: 0.000091
+[2017-12-11 14:04:04][p] avg-mean: 0.011827, avg-std-dev: 0.000088
+[2017-12-11 14:04:04][i] runtime: 0 ms
+[2017-12-11 14:04:04][i] price-expected-at: 2017-12-11 14:04:16 (12.945782s)
+[2017-12-11 14:04:04][i] sleeping for 12.945782s
+[2017-12-11 14:04:16][r] mean: 0.011833, std-dev: 0.000094
+[OUTPUT][o]:1513019044, 0.011826, 0.000091, 1513019044, 0.011827, 0.000088, 1513019056, 0.011833, 0.000094, 0.268037, 0, 50, 6, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:04:17][r] mean: 0.011833, std-dev: 0.000094
+[2017-12-11 14:04:17][p] avg-mean: 0.011832, avg-std-dev: 0.000092
+[2017-12-11 14:04:17][i] runtime: 0 ms
+[2017-12-11 14:04:17][i] price-expected-at: 2017-12-11 14:04:42 (25.891564s)
+[2017-12-11 14:04:17][i] sleeping for 25.891564s
+[2017-12-11 14:04:42][r] mean: 0.011825, std-dev: 0.000091
+[OUTPUT][o]:1513019057, 0.011833, 0.000094, 1513019057, 0.011832, 0.000092, 1513019082, 0.011825, 0.000091, 0.357929, 0, 100, 6, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:04:43][r] mean: 0.011825, std-dev: 0.000091
+[2017-12-11 14:04:43][p] avg-mean: 0.011817, avg-std-dev: 0.000088
+[2017-12-11 14:04:43][i] runtime: 0 ms
+[2017-12-11 14:04:43][i] price-expected-at: 2017-12-11 14:04:43 (0.258916s)
+[2017-12-11 14:04:43][i] sleeping for 0.258916s
+[2017-12-11 14:04:43][r] mean: 0.011825, std-dev: 0.000091
+[OUTPUT][o]:1513019083, 0.011825, 0.000091, 1513019083, 0.011817, 0.000088, 1513019083, 0.011825, 0.000091, 0.375339, 0, 1, 12, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:04:44][r] mean: 0.011817, std-dev: 0.000087
+[2017-12-11 14:04:44][p] avg-mean: 0.011815, avg-std-dev: 0.000086
+[2017-12-11 14:04:44][i] runtime: 0 ms
+[2017-12-11 14:04:44][i] price-expected-at: 2017-12-11 14:04:45 (1.294578s)
+[2017-12-11 14:04:44][i] sleeping for 1.294578s
+[2017-12-11 14:04:46][r] mean: 0.011817, std-dev: 0.000087
+[OUTPUT][o]:1513019084, 0.011817, 0.000087, 1513019084, 0.011815, 0.000086, 1513019086, 0.011817, 0.000087, 0.425241, 0, 5, 12, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:04:48][r] mean: 0.011835, std-dev: 0.000090
+[2017-12-11 14:04:48][p] avg-mean: 0.011832, avg-std-dev: 0.000089
+[2017-12-11 14:04:48][i] runtime: 0 ms
+[2017-12-11 14:04:48][i] price-expected-at: 2017-12-11 14:04:50 (2.589156s)
+[2017-12-11 14:04:48][i] sleeping for 2.589156s
+[2017-12-11 14:04:50][r] mean: 0.011835, std-dev: 0.000090
+[OUTPUT][o]:1513019088, 0.011835, 0.000090, 1513019088, 0.011832, 0.000089, 1513019090, 0.011835, 0.000090, 0.428784, 0, 10, 12, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:04:52][r] mean: 0.011834, std-dev: 0.000090
+[2017-12-11 14:04:52][p] avg-mean: 0.011829, avg-std-dev: 0.000085
+[2017-12-11 14:04:52][i] runtime: 0 ms
+[2017-12-11 14:04:52][i] price-expected-at: 2017-12-11 14:05:04 (12.945782s)
+[2017-12-11 14:04:52][i] sleeping for 12.945782s
+[2017-12-11 14:05:04][r] mean: 0.011821, std-dev: 0.000085
+[OUTPUT][o]:1513019092, 0.011834, 0.000090, 1513019092, 0.011829, 0.000085, 1513019104, 0.011821, 0.000085, 0.432825, 0, 50, 12, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:05:05][r] mean: 0.011821, std-dev: 0.000085
+[2017-12-11 14:05:05][p] avg-mean: 0.011821, avg-std-dev: 0.000081
+[2017-12-11 14:05:05][i] runtime: 0 ms
+[2017-12-11 14:05:05][i] price-expected-at: 2017-12-11 14:05:30 (25.891564s)
+[2017-12-11 14:05:05][i] sleeping for 25.891564s
+[2017-12-11 14:05:30][r] mean: 0.011830, std-dev: 0.000084
+[OUTPUT][o]:1513019105, 0.011821, 0.000085, 1513019105, 0.011821, 0.000081, 1513019130, 0.011830, 0.000084, 0.515835, 0, 100, 12, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:05:31][r] mean: 0.011830, std-dev: 0.000084
+[2017-12-11 14:05:31][p] avg-mean: 0.011821, avg-std-dev: 0.000075
+[2017-12-11 14:05:31][i] runtime: 1 ms
+[2017-12-11 14:05:31][i] price-expected-at: 2017-12-11 14:05:31 (0.258916s)
+[2017-12-11 14:05:31][i] sleeping for 0.258916s
+[2017-12-11 14:05:33][r] mean: 0.011831, std-dev: 0.000084
+[OUTPUT][o]:1513019131, 0.011830, 0.000084, 1513019131, 0.011821, 0.000075, 1513019133, 0.011831, 0.000084, 1.433835, 0, 1, 36, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:05:34][r] mean: 0.011831, std-dev: 0.000084
+[2017-12-11 14:05:34][p] avg-mean: 0.011818, avg-std-dev: 0.000078
+[2017-12-11 14:05:34][i] runtime: 1 ms
+[2017-12-11 14:05:34][i] price-expected-at: 2017-12-11 14:05:35 (1.294578s)
+[2017-12-11 14:05:34][i] sleeping for 1.294578s
+[2017-12-11 14:05:37][r] mean: 0.011831, std-dev: 0.000084
+[OUTPUT][o]:1513019134, 0.011831, 0.000084, 1513019134, 0.011818, 0.000078, 1513019137, 0.011831, 0.000084, 1.307670, 0, 5, 36, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:05:39][r] mean: 0.011837, std-dev: 0.000084
+[2017-12-11 14:05:39][p] avg-mean: 0.011821, avg-std-dev: 0.000075
+[2017-12-11 14:05:39][i] runtime: 1 ms
+[2017-12-11 14:05:39][i] price-expected-at: 2017-12-11 14:05:41 (2.589156s)
+[2017-12-11 14:05:39][i] sleeping for 2.589156s
+[2017-12-11 14:05:42][r] mean: 0.011837, std-dev: 0.000084
+[OUTPUT][o]:1513019139, 0.011837, 0.000084, 1513019139, 0.011821, 0.000075, 1513019142, 0.011837, 0.000084, 1.564428, 0, 10, 36, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:05:43][r] mean: 0.011824, std-dev: 0.000076
+[2017-12-11 14:05:43][p] avg-mean: 0.011818, avg-std-dev: 0.000073
+[2017-12-11 14:05:43][i] runtime: 1 ms
+[2017-12-11 14:05:43][i] price-expected-at: 2017-12-11 14:05:55 (12.945782s)
+[2017-12-11 14:05:43][i] sleeping for 12.945782s
+[2017-12-11 14:05:55][r] mean: 0.011820, std-dev: 0.000080
+[OUTPUT][o]:1513019143, 0.011824, 0.000076, 1513019143, 0.011818, 0.000073, 1513019155, 0.011820, 0.000080, 1.396895, 0, 50, 36, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:05:57][r] mean: 0.011820, std-dev: 0.000080
+[2017-12-11 14:05:57][p] avg-mean: 0.011816, avg-std-dev: 0.000077
+[2017-12-11 14:05:57][i] runtime: 1 ms
+[2017-12-11 14:05:57][i] price-expected-at: 2017-12-11 14:06:22 (25.891564s)
+[2017-12-11 14:05:57][i] sleeping for 25.891564s
+[2017-12-11 14:06:22][r] mean: 0.011807, std-dev: 0.000091
+[OUTPUT][o]:1513019157, 0.011820, 0.000080, 1513019157, 0.011816, 0.000077, 1513019182, 0.011807, 0.000091, 1.208909, 0, 100, 36, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:06:23][r] mean: 0.011807, std-dev: 0.000091
+[2017-12-11 14:06:23][p] avg-mean: 0.011766, avg-std-dev: 0.000059
+[2017-12-11 14:06:23][i] runtime: 4 ms
+[2017-12-11 14:06:23][i] price-expected-at: 2017-12-11 14:06:23 (0.258916s)
+[2017-12-11 14:06:23][i] sleeping for 0.258916s
+[2017-12-11 14:06:24][r] mean: 0.011807, std-dev: 0.000091
+[OUTPUT][o]:1513019183, 0.011807, 0.000091, 1513019183, 0.011766, 0.000059, 1513019184, 0.011807, 0.000091, 4.035283, 0, 1, 72, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:06:26][r] mean: 0.011807, std-dev: 0.000091
+[2017-12-11 14:06:26][p] avg-mean: 0.011766, avg-std-dev: 0.000060
+[2017-12-11 14:06:26][i] runtime: 4 ms
+[2017-12-11 14:06:26][i] price-expected-at: 2017-12-11 14:06:27 (1.294578s)
+[2017-12-11 14:06:26][i] sleeping for 1.294578s
+[2017-12-11 14:06:28][r] mean: 0.011803, std-dev: 0.000097
+[OUTPUT][o]:1513019186, 0.011807, 0.000091, 1513019186, 0.011766, 0.000060, 1513019188, 0.011803, 0.000097, 4.395594, 0, 5, 72, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:06:30][r] mean: 0.011803, std-dev: 0.000097
+[2017-12-11 14:06:30][p] avg-mean: 0.011756, avg-std-dev: 0.000073
+[2017-12-11 14:06:30][i] runtime: 4 ms
+[2017-12-11 14:06:30][i] price-expected-at: 2017-12-11 14:06:32 (2.589156s)
+[2017-12-11 14:06:30][i] sleeping for 2.589156s
+[2017-12-11 14:06:32][r] mean: 0.011802, std-dev: 0.000099
+[OUTPUT][o]:1513019190, 0.011803, 0.000097, 1513019190, 0.011756, 0.000073, 1513019192, 0.011802, 0.000099, 4.362021, 0, 10, 72, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:06:34][r] mean: 0.011807, std-dev: 0.000093
+[2017-12-11 14:06:34][p] avg-mean: 0.011799, avg-std-dev: 0.000077
+[2017-12-11 14:06:34][i] runtime: 4 ms
+[2017-12-11 14:06:34][i] price-expected-at: 2017-12-11 14:06:46 (12.945782s)
+[2017-12-11 14:06:34][i] sleeping for 12.945782s
+[2017-12-11 14:06:46][r] mean: 0.011818, std-dev: 0.000083
+[OUTPUT][o]:1513019194, 0.011807, 0.000093, 1513019194, 0.011799, 0.000077, 1513019206, 0.011818, 0.000083, 4.016998, 0, 50, 72, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:06:47][r] mean: 0.011818, std-dev: 0.000083
+[2017-12-11 14:06:47][p] avg-mean: 0.011793, avg-std-dev: 0.000062
+[2017-12-11 14:06:47][i] runtime: 4 ms
+[2017-12-11 14:06:47][i] price-expected-at: 2017-12-11 14:07:12 (25.891564s)
+[2017-12-11 14:06:47][i] sleeping for 25.891564s
+[2017-12-11 14:07:12][r] mean: 0.011802, std-dev: 0.000091
+[OUTPUT][o]:1513019207, 0.011818, 0.000083, 1513019207, 0.011793, 0.000062, 1513019232, 0.011802, 0.000091, 4.071629, 0, 100, 72, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:07:14][r] mean: 0.011802, std-dev: 0.000091
+[2017-12-11 14:07:14][p] avg-mean: 0.011765, avg-std-dev: 0.000058
+[2017-12-11 14:07:14][i] runtime: 13 ms
+[2017-12-11 14:07:14][i] price-expected-at: 2017-12-11 14:07:14 (0.258916s)
+[2017-12-11 14:07:14][i] sleeping for 0.258916s
+[2017-12-11 14:07:15][r] mean: 0.011802, std-dev: 0.000091
+[OUTPUT][o]:1513019234, 0.011802, 0.000091, 1513019234, 0.011765, 0.000058, 1513019235, 0.011802, 0.000091, 13.794168, 0, 1, 144, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:07:17][r] mean: 0.011805, std-dev: 0.000094
+[2017-12-11 14:07:17][p] avg-mean: 0.011757, avg-std-dev: 0.000062
+[2017-12-11 14:07:17][i] runtime: 15 ms
+[2017-12-11 14:07:17][i] price-expected-at: 2017-12-11 14:07:18 (1.294578s)
+[2017-12-11 14:07:17][i] sleeping for 1.294578s
+[2017-12-11 14:07:18][r] mean: 0.011806, std-dev: 0.000091
+[OUTPUT][o]:1513019237, 0.011805, 0.000094, 1513019237, 0.011757, 0.000062, 1513019238, 0.011806, 0.000091, 15.281447, 0, 5, 144, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:07:20][r] mean: 0.011806, std-dev: 0.000091
+[2017-12-11 14:07:20][p] avg-mean: 0.011765, avg-std-dev: 0.000060
+[2017-12-11 14:07:20][i] runtime: 13 ms
+[2017-12-11 14:07:20][i] price-expected-at: 2017-12-11 14:07:22 (2.589156s)
+[2017-12-11 14:07:20][i] sleeping for 2.589156s
+[2017-12-11 14:07:22][r] mean: 0.011803, std-dev: 0.000092
+[OUTPUT][o]:1513019240, 0.011806, 0.000091, 1513019240, 0.011765, 0.000060, 1513019242, 0.011803, 0.000092, 13.972634, 0, 10, 144, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:07:23][r] mean: 0.011807, std-dev: 0.000092
+[2017-12-11 14:07:23][p] avg-mean: 0.011763, avg-std-dev: 0.000058
+[2017-12-11 14:07:23][i] runtime: 17 ms
+[2017-12-11 14:07:23][i] price-expected-at: 2017-12-11 14:07:35 (12.945782s)
+[2017-12-11 14:07:23][i] sleeping for 12.945782s
+[2017-12-11 14:07:36][r] mean: 0.011809, std-dev: 0.000088
+[OUTPUT][o]:1513019243, 0.011807, 0.000092, 1513019243, 0.011763, 0.000058, 1513019256, 0.011809, 0.000088, 17.889372, 0, 50, 144, 0
+[OUTPUT][o]:b_ts, b_mean, b_std, p_ts, p_mean, p_std, a_ts, a_mean, a_std, rte(ms), gpu, trades, generations, blocksize
+[2017-12-11 14:07:38][r] mean: 0.011809, std-dev: 0.000088
+[2017-12-11 14:07:38][p] avg-mean: 0.011765, avg-std-dev: 0.000052
+[2017-12-11 14:07:38][i] runtime: 14 ms
+[2017-12-11 14:07:38][i] price-expected-at: 2017-12-11 14:08:03 (25.891564s)
+[2017-12-11 14:07:38][i] sleeping for 25.891564s
+[2017-12-11 14:08:03][r] mean: 0.011816, std-dev: 0.000092
+[OUTPUT][o]:1513019258, 0.011809, 0.000088, 1513019258, 0.011765, 0.000052, 1513019283, 0.011816, 0.000092, 14.446458, 0, 100, 144, 0
