@@ -24,4 +24,4 @@ make
 * symbol - symbol from bitfinex to represent currencies exchange https://api.bitfinex.com/v1/symbols
 
 ### Third Party Tools
-[https://github.com/nlohmann/json](JSON for Modern C++) was used to parse the JSON data from the server.
+[JSON for Modern C++](https://github.com/nlohmann/json) was used to parse the JSON data from the server.
