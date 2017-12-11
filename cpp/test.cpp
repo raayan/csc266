@@ -15,13 +15,10 @@ static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *use
 
 int main()
 {
-	int nrolls = 1000;
 	int nstars = 10;
 
 	default_random_engine generator;
 	normal_distribution<double> distribution(5.0,2.0);
-
-	int p[10]={};
 
 	for (int i=0; i<nrolls; ++i) {
 		double number = distribution(generator);
